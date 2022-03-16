@@ -1,0 +1,2 @@
+bidit/user:-
+CREATE TABLE `bidit`.`users` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `firstname` VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL , `lastname` VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL , `email` VARCHAR(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL , `phone` BIGINT(14) NOT NULL , `location` VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL , `password` VARCHAR(50) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
